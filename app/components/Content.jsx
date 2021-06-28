@@ -12,6 +12,6 @@ export default function Content() {
             <ExUseState/>
             <ExUseState2/>
         </View>
-      </ScrollView>
+      </ScrollView> 
   );
 }
