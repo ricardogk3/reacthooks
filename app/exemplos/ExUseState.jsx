@@ -1,3 +1,7 @@
+/*  
+    a declaração do useState é feita juntamente com o React, porém, 
+    entre { os hooks são declarados aqui }
+*/
 import React, {useState} from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
 import { styles } from '../style/style';

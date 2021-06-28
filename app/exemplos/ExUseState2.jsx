@@ -21,7 +21,11 @@ export default function ExUseState2() {
       {/** 
        * A função onChangeText irá alterar o state apenas a  chave nome, 
        * mantendo intacto qualquer outra chave contida no objeto, por conta do
-       * ...state */}
+       * ...state 
+       * 
+       * ...state impede que os dados que não serão 
+       *  alterados se perca, nesse caso o preco 
+       * */}
       <TextInput 
         style={styles.input}
         placeholder='Nome'
@@ -35,7 +39,11 @@ export default function ExUseState2() {
        {/** 
        * A função onChangeText irá alterar o state apenas a  chave preco, 
        * mantendo intacto qualquer outra chave contida no objeto, por conta do
-       * ...state */}
+       * ...state 
+       * 
+       *  ...state impede que os dados que não serão 
+       *  alterados se perca, nesse caso o nome 
+      */}
       <TextInput 
         style={styles.input}
         placeholder='Preco'
