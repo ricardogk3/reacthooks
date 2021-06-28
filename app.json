@@ -1,0 +1,12 @@
+{
+  "name": "reacthooks",
+  "displayName": "reacthooks",
+  "expo": {
+    "name": "reacthooks",
+    "slug": "reacthooks",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
