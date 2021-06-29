@@ -3,7 +3,7 @@
     entre { os hooks são declarados aqui }
 */
 import React, {useState} from 'react';
-import { Button, StyleSheet, Text, View } from 'react-native';
+import { Button, Text, View } from 'react-native';
 import { styles } from '../style/style';
 
 export default function ExUseState() {

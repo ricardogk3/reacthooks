@@ -15,8 +15,6 @@ export default function ExUseState2() {
       preco: "3000"
     });
 
-    
-
     return (
     <View style={styles.container}>
       <Text style={styles.subtitleDark}>Exemplo useState 2</Text>
