@@ -15,7 +15,6 @@ export default function Content() {
             <ExUseEffect/>
             <ExUseState/>
             <ExUseState2/>
-
         </View>
       </ScrollView> 
   );
