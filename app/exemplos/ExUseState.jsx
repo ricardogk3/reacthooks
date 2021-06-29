@@ -37,9 +37,11 @@ export default function ExUseState() {
       
       <Button 
         onPress={
-            ()=>setCount(0)  //usando função anonima com setCount para zerar o estado count
+        //usando função anonima com setCount para zerar o estado count
+            ()=>setCount(0)  
         }
         title='zerar' />
     </View>
   );
 }
+
