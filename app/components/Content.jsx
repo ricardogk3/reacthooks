@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import ExCriandoContexto from '../exemplos/ExCriandoContexto';
 import ExUseEffect from '../exemplos/ExUseEffect';
 import ExUseState from '../exemplos/ExUseState';
 import ExUseState2 from '../exemplos/ExUseState2';
@@ -10,6 +11,7 @@ export default function Content() {
       <ScrollView>
         <View style={styles.content}>
             <Text style={styles.titleDark}>Área de Exemplos</Text>
+            <ExCriandoContexto/>            
             <ExUseEffect/>
             <ExUseState/>
             <ExUseState2/>
