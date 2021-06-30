@@ -15,12 +15,12 @@ export default function Content() {
       <ScrollView>
           <Text style={styles.titleDark}>Área de Exemplos</Text>
           <ExUseMemo/>
-          {/* <ExUseCallback/>
+          <ExUseCallback/>
           <ExUseReducer/>
           <ExCriandoContexto/>            
           <ExUseEffect/>
           <ExUseState/>
-          <ExUseState2/> */}
+          <ExUseState2/>
       </ScrollView>
     </View>
       
