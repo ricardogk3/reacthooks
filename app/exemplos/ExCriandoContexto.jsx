@@ -8,7 +8,7 @@ import ExUseContext from './ExUseContext';
  * essa constante aqui é responsável por criar o contexto que
  * deve ser repassado aos componentes escolhidos
  * Seu nome é MeuContexto  */
-export const MeuContexto = createContext();
+export const MeuContexto = createContext({});
 
 export default function ExCriandoContexto(){
     /**Criando um estado dados onde irá ter um pequeno conjunto
