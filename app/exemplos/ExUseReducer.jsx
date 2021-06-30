@@ -25,7 +25,7 @@
 
     return(
         <View style={styles.container}>
-            <Text style={styles.titleDark}>Usando o useReducer</Text>
+            <Text style={styles.subtitleDark}>Usando o useReducer</Text>
             
             <Text>Valor do state: {state}</Text>
             {/** chamando a função de dispatch que envia a opção escolhida para meuReducer

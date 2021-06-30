@@ -19,7 +19,7 @@ export default function ExUseContext(){
     
     return(
         <View style={styles.container}>
-            <Text style={styles.titleDark}>Usando o Contexto</Text>
+            <Text style={styles.subtitleDark}>Usando o Contexto</Text>
             <Text>Dados do Contexto - Nome: {dados.nome}</Text>
             <Text>Dados do Contexto - Valor: {dados.valor}</Text>
         </View>
