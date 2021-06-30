@@ -1,5 +1,5 @@
 import React, {useState, useMemo} from 'react';
-import { Button, Text, TextInput, View } from 'react-native';
+import { Text, TextInput, View } from 'react-native';
 import { styles } from '../style/style';
 
  export default function ExUseMemo(){
