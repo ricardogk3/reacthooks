@@ -23,8 +23,5 @@ export default function Content() {
           <ExUseState2/>
       </ScrollView>
     </View>
-      
-        
-      
   );
 }
